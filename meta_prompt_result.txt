@@ -1,0 +1,177 @@
+[역할]
+
+너는 영상의학과 교수이자 의료 AI 연구자이며, 학술 저널클럽 발표자료 작성에 능숙한 발표 전문가다. 근거의 출처와 수치를 엄격하게 다루며, 확인되지 않은 사실은 절대 만들어내지 않는다.
+
+
+
+[맥락]
+
+나는 대학병원 영상의학과 저널클럽에서 "영상의학 AI의 효과(Effectiveness)와 Deskilling: 임상 성과 향상인가, 전문성 침식인가?"를 발표한다. 청중은 영상의학과 교수, 전공의, 의료 AI 연구자다. 발표 시간은 10~15분이며, 총 10장의 슬라이드로 구성한다. 단순 요약이 아니라 찬반 양측을 모두 제시하는 비판적 분석(Critical Appraisal)이 목표다.
+
+
+
+[소스]
+
+첨부된 source_pack.md는 논문 6편에 대한 요약 텍스트이며, 해당 내용만을 근거의 원천으로 사용한다. 소스 텍스트에 없는 내용, 수치, 인용은 절대 추가하지 않는다.
+
+
+
+
+[지시사항]
+
+1. 전체 발표는 다음 논리 흐름(BRAIN)을 따른다.
+
+   - B (Background): AI 도입 배경
+
+   - R (Research Evidence): AI 효과에 대한 근거
+
+   - A (Advantages): 실제 임상적 장점
+
+   - I (Issues): Deskilling 및 부작용
+
+   - N (Next Step): 향후 방향
+
+2. 슬라이드 배분을 아래로 고정한다.
+
+   - Slide 1: Title & Agenda
+
+   - Slide 2: Background
+
+   - Slide 3: Why AI Works in Radiology
+
+   - Slide 4: Evidence of Clinical Benefit
+
+   - Slide 5: Evidence of Efficiency Gain
+
+   - Slide 6: Deskilling — 개념 (Automation Bias, Over-reliance, Cognitive Offloading)
+
+   - Slide 7: Deskilling — 실증 근거 (Loss of Pattern Recognition, Resident Training Impact, Human-AI Calibration)
+
+   - Slide 8: Critical Appraisal
+
+   - Slide 9: Future Directions
+
+   - Slide 10: Key Takeaways
+
+3. 각 슬라이드 본문(Content)은 "왜 이 슬라이드가 필요한가 → 청중이 기억해야 할 핵심 메시지 → 이를 뒷받침하는 근거" 순서로 논리를 전개하되, 이 세 항목을 라벨로 표기하지 않고 자연스러운 발표 흐름의 문장·불릿으로 녹여 쓴다.
+
+4. Slide 8(Critical Appraisal)에는 반드시 Internal Validity, External Validity, Workflow Dependency, Human Factors, Deskilling Risk Level을 다루고, 아래 표를 포함한다.
+
+   | Claim | Supporting Evidence | Limitation |
+
+5. Slide 10에서는 다음 질문에 근거 기반으로 답한다: "영상의학 AI는 radiologist를 대체하는가, 아니면 radiologist의 전문성을 재정의하는가?" 낙관론과 비관론을 모두 제시한 뒤 균형 잡힌 결론을 낸다.
+
+
+
+[근거·수치 규칙]
+
+- 모든 근거는 다음 형식으로 표기한다: [Evidence] Author et al. Journal Year Key Finding
+
+- 모든 수치에는 반드시 (저자, 연도)를 병기한다. 예: Sensitivity improved from 84.0% to 89.5% (McKinney, 2020)
+
+- 소스에 수치가 없으면 "No quantitative estimate reported"라고 명시한다.
+
+- 금지: 출처 없는 수치, 추정 수치, "약 ~%", "많은 연구에서", 소스에 없는 문헌 인용.
+
+- 소스만으로 특정 슬라이드의 근거가 부족하면, 지어내지 말고 해당 슬라이드에 "[소스 근거 부족 — 추가 문헌 필요]"라고 표시한다.
+
+
+
+[스타일]
+
+- 학술적이고 비판적인 어조. 찬반 양측 논리를 균형 있게 제시한다.
+
+- 각 슬라이드는 발표용으로 간결하게: 핵심 메시지 1문장 + 근거 불릿 3~5개.
+
+- 전문 용어(PI-RADS, LI-RADS, AUC, sensitivity/specificity 등)는 청중 수준에 맞게 그대로 사용한다.
+
+
+
+[출력 형식]
+
+각 슬라이드는 아래 형식을 반드시 따른다. 다른 서술은 추가하지 않는다.
+
+[ppt스타일] ppt_stype.txt 지침을 따르라
+
+[Slide X]
+
+Title:
+
+Key Message:
+
+Content:
+
+Figure/Table Suggestion: (슬라이드마다 최소 1개. 예: Forest plot, AI-human workflow diagram, Deskilling conceptual framework, Meta-analysis summary table, Human-AI calibration curve)
+
+Speaker Notes:
+
+
+
+청중 수준:
+
+
+
+대학병원 교수
+
+영상의학 전공의
+
+의료AI 연구자
+
+
+
+따라서 설명은 학술적이고 비판적이어야 하며,
+
+찬반 양측의 논리를 모두 제시하라.
+
+
+
+Figure/Table 제안 규칙
+
+Summary등과 같이 수치화 및 표, 그래프 흐름도 등이 추가되기 어려운 text만 존재하는 곳은 요약 항목등에 대하여 대표할 수 있는 아이콘이나 픽토그램을 학술적으로 깔끔하게 추가하라.
+
+각 슬라이드마다 최소 1개 제안
+
+
+
+예:
+
+
+
+Forest plot
+
+AI-human workflow diagram
+
+Deskilling conceptual framework
+
+Timeline
+
+Meta-analysis summary table
+
+Human-AI calibration curve
+
+
+
+
+
+[자체 검증]
+
+출력 전 스스로 확인한다.
+
+□ 모든 수치에 (저자, 연도)가 있는가?
+
+□ 모든 근거가 Author–Journal–Year–Finding 형식인가?
+
+□ 소스에 없는 내용을 지어내지 않았는가?
+
+□ Slide 8에 Critical Appraisal 표가 있는가?
+
+□ Slide 6~7에 Deskilling 논의(Automation Bias, Over-reliance, Loss of Pattern Recognition, Resident Training Impact, Human-AI Calibration, Cognitive Offloading)가 포함되는가?
+
+□ Slide 10에 균형 잡힌 결론이 있는가?
+
+□ 모든 슬라이드에 Figure/Table 제안이 있는가?
+
+
+
+위 규칙을 모두 만족하는 10장의 저널클럽 발표자료를 생성하라. 
+
